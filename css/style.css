@@ -52,11 +52,20 @@
   margin: 0 10px;
   font-size: 18px;
   align-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-home {
+  padding: 15px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 13px;
 }
 
 .ul-nav a:hover {
-  border: 1px solid rgba(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .second-nav {
@@ -198,4 +207,8 @@
 
 .card:hover {
   cursor: pointer;
+}
+
+footer {
+  display: flex;
 }
