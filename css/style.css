@@ -1,3 +1,14 @@
+.cards span {
+  font-size: medium;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px 0px 0px 0px;
+  /* gap: 20px; */
+  border: 1px solid #262626;
+}
+
 .first-nav {
   display: flex;
   justify-content: center;
@@ -46,6 +57,7 @@ p a {
   color: #ffffff;
 }
 .logo {
+  position: relative;
   border: 20px white solid;
   height: 40px;
   width: 40px;
