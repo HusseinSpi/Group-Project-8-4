@@ -282,3 +282,76 @@ a {
 a:hover {
   filter: drop-shadow(1px 1px 20px #ff00dd);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.last-part-of-main {
+  border: 1px 0px 1px 0px;
+  height: 367px;
+  background-image: url("/image/background-img/last-part-of-main-background-left.png");
+  /* background-size: cover; */
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-size: 100%;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 80px;
+}
+
+.last-part-of-main-title {
+  font-family: "Urbanist";
+  font-weight: 600;
+  font-size: 48px;
+  align-items: center;
+  color: #ffffff;
+  width: 1154px;
+  height: 72px;
+  line-height: 72px;
+}
+.last-part-of-main-p {
+  font-family: "Urbanist";
+  font-weight: 500;
+  font-size: 18px;
+  align-items: center;
+  color: #999999;
+  gap: 14;
+}
+
+.last-part-of-main-btn {
+  right: -580px;
+}
