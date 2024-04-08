@@ -1,146 +1,71 @@
-.cards span {
-  font-size: 14px;
-  color: white;
-}
-.cards {
-  display: flex;
-}
-  justify-content: space-around;
-  border-radius: 12px;
-}
-.card-1 {
-  border: 2px solid #262626;
-  background-color: #141414;
-  border-radius: 12px 12px 12px 12px;
-  height: 180px;
-  width: 24%;
-  align-content: center;
-  text-align: center;
-  margin-top: -10;
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-  justify-content: space-between;
-  border-radius: 12px 0px 0px 0px;
-  border: 1px solid #262626;
-}
-
-.img-1 {
-  width: 70px;
-  height: 70px;
-}
-.cross-right {
-  position: absolute;
-  display: inline-block;
-  top: 10px;
-  right: 10px;
-  z-index: 99;
-}
-.card-2 {
-  border: 2px solid #262626;
-  background-color: #141414;
-  border-radius: 12px 12px 12px 12px;
-  height: 180px;
-  width: 24%;
-  align-content: center;
-  text-align: center;
-  margin-top: -10;
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.img-2 {
-  width: 70px;
-  height: 70px;
-}
-.card-3 {
-  border: 2px solid #262626;
-  background-color: #141414;
-  border-radius: 12px 12px 12px 12px;
-  height: 180px;
-  width: 24%;
-  align-content: center;
-  text-align: center;
-  margin-top: -10;
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.img-3 {
-  width: 70px;
-  height: 70px;
-}
-.card-4 {
-  border: 2px solid #262626;
-  background-color: #141414;
-  border-radius: 12px 12px 12px 12px;
-  height: 180px;
-  width: 24%;
-  align-content: center;
-  text-align: center;
-  margin-top: -10;
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.img-4 {
-  width: 70px;
-  height: 70px;
-}
 .first-nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   background-color: #1a1a1a;
-
-  height: 63px;
-
+  height: 40px;
   background-image: url(/image/backgroundnav.svg);
   background-size: cover;
+  position: relative;
 }
-p {
-  font-family: "Urbanist";
-  font-weight: 500;
-  font-size: 18px;
-  align-items: center;
-  color: #ffffff;
+
+.first-nav p {
+  font-size: 14px;
 }
-p a {
-  color: #ffffff;
+
+.first-nav a:hover {
   text-decoration: underline;
 }
 
 .btn-x {
-  position: relative;
-  right: -760px;
-  margin-left: 100px;
-  background-color: gray;
-  border: 13px grey solid;
-  border-radius: 75px;
+  background-color: rgba(128, 128, 128, 0.4);
+  border-radius: 50%;
   color: #ffffff;
-  height: 32px;
-  width: 32px;
-  padding: 4px;
-  gap: 10px;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+}
+
+.btn-x:hover {
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.7);
+}
+
+.ul-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.ul-nav a {
+  padding: 15px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.btn-home {
+  padding: 15px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 13px;
+}
+
+.ul-nav a:hover {
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .second-nav {
@@ -150,44 +75,37 @@ p a {
   background-color: #1a1a1a;
   height: 99px;
   justify-content: space-between;
-  color: #ffffff;
-}
-.logo {
-  position: relative;
-  border: 20px white solid;
-  height: 40px;
-  width: 40px;
-  margin-left: 40px;
-}
-.ul-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap: 30px;
-}
-.ul-nav li {
-  font-family: "Urbanist";
-  font-weight: 500;
-  font-size: 18px;
-  align-items: center;
-  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-button {
-  display: flex;
-  flex-direction: row;
-  margin-right: 40px;
-  width: 136px;
-  height: 59px;
-  font-family: "Urbanist";
-  font-weight: 500;
-  font-size: 18px;
-  align-items: center;
-  justify-content: center;
-  background-color: #141414;
+.btn-dark {
+  background-color: black;
+  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  color: #ffffff;
+  padding: 25px 45px;
+  margin: 10px;
 }
+
+.btn-Primary {
+  background-color: var(--Primary-color);
+  border-radius: 10px;
+  padding: 25px 45px;
+  margin: 10px;
+}
+
+.second-nav .btn-dark {
+  padding: 15px 20px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 50px;
+}
+
+.second-nav .btn-dark:hover {
+  color: rgba(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255);
+}
+
+/* hero */
 
 .flex-row-center {
   display: flex;
@@ -202,24 +120,22 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 10px;
 }
 
-.gap-20 {
+.gap-50 {
   gap: 50px;
 }
 
 .flex-column {
   display: flex;
   flex-direction: column;
-  gap: 50px;
 }
 
-.box-header {
-  width: 80%;
+.hero .flex-column {
+  padding: 150px;
 }
 
-.box-header img {
+.hero img {
   width: 920px;
   height: 814px;
 }
@@ -236,30 +152,6 @@ button {
 .hero-header p {
   opacity: 0.5;
   font-size: 20px;
-}
-
-a {
-  color: white;
-  font-size: 14px;
-}
-
-.btn-dark {
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
-  padding: 25px 45px;
-  margin: 10px;
-}
-
-.btn-Primary {
-  background-color: var(--Primary-color);
-  border-radius: 10px;
-  padding: 25px 45px;
-  margin: 10px;
-}
-
-.box-header {
-  justify-content: flex-end;
 }
 
 .information .box {
@@ -279,8 +171,46 @@ a {
   font-size: 14px;
 }
 
-a:hover {
-  filter: drop-shadow(1px 1px 20px #ff00dd);
+.cards span {
+  font-size: 14px;
+  color: white;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.img {
+  width: 70px;
+  height: 70px;
+}
+
+.card {
+  border: 2px solid #262626;
+  background-color: #141414;
+  border-radius: 12px 12px 12px 12px;
+  height: 180px;
+  width: 24%;
+  align-content: center;
+  text-align: center;
+  margin-top: -10;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
 }
 
 
