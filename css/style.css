@@ -13,6 +13,22 @@
 
 .first-nav {
   display: flex;
+  justify-content: center;
+  height: 63px;
+
+  background-image: url(/image/img-background-first-nav.png);
+  background-size: cover;
+}
+p {
+  font-family: "Urbanist";
+  font-weight: 500;
+  font-size: 18px;
+  align-items: center;
+  color: black;
+}
+
+.btn-x{
+  margin
 }
 
 .flex-row-center {
