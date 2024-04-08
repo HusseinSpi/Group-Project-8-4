@@ -5,12 +5,106 @@
   display: flex;
   justify-content: space-between;
   border-radius: 12px 0px 0px 0px;
-  /* gap: 20px; */
   border: 1px solid #262626;
 }
 .cards1 {
   color: #1a1a1a;
+}
 
 .first-nav {
   display: flex;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 300px;
+}
+
+.flex-row-ar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.gap-20 {
+  gap: 50px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.box-header {
+  width: 80%;
+}
+
+.box-header img {
+  width: 920px;
+  height: 814px;
+}
+
+.image {
+  background: linear-gradient(to top right, black, rgba(255, 255, 255, 0.1));
+  background-size: cover;
+}
+
+.hero-header h1 {
+  font-size: 50px;
+}
+
+.hero-header p {
+  opacity: 0.5;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  font-size: 14px;
+}
+
+.btn-dark {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 25px 45px;
+  margin: 10px;
+}
+
+.btn-Primary {
+  background-color: var(--Primary-color);
+  border-radius: 10px;
+  padding: 25px 45px;
+  margin: 10px;
+}
+
+.box-header {
+  justify-content: flex-end;
+}
+
+.information .box {
+  width: 225px;
+  background-color: #141414;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 25px 45px;
+  margin: 10px;
+}
+
+.information .box h2 {
+  font-size: 30px;
+}
+
+.information .box span {
+  font-size: 14px;
+}
+
+a:hover {
+  filter: drop-shadow(1px 1px 20px #ff00dd);
 }
