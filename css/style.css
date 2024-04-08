@@ -1,16 +1,104 @@
 .cards span {
-  font-size: medium;
+  font-size: 14px;
+  color: white;
 }
 .cards {
   display: flex;
-  justify-content: space-between;
-  border-radius: 12px 0px 0px 0px;
-  /* gap: 20px; */
-  border: 1px solid #262626;
+  justify-content: space-around;
+  border-radius: 12px;
 }
-.cards1 {
-  color: #1a1a1a;
+.card-1 {
+  border: 2px solid #262626;
+  background-color: #141414;
+  border-radius: 12px 12px 12px 12px;
+  height: 180px;
+  width: 24%;
+  align-content: center;
+  text-align: center;
+  margin-top: -10;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 
+.img-1 {
+  width: 70px;
+  height: 70px;
+}
+.cross-right {
+  position: absolute;
+  display: inline-block;
+  top: 10px;
+  right: 10px;
+  z-index: 99;
+}
+.card-2 {
+  border: 2px solid #262626;
+  background-color: #141414;
+  border-radius: 12px 12px 12px 12px;
+  height: 180px;
+  width: 24%;
+  align-content: center;
+  text-align: center;
+  margin-top: -10;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.img-2 {
+  width: 70px;
+  height: 70px;
+}
+.card-3 {
+  border: 2px solid #262626;
+  background-color: #141414;
+  border-radius: 12px 12px 12px 12px;
+  height: 180px;
+  width: 24%;
+  align-content: center;
+  text-align: center;
+  margin-top: -10;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.img-3 {
+  width: 70px;
+  height: 70px;
+}
+.card-4 {
+  border: 2px solid #262626;
+  background-color: #141414;
+  border-radius: 12px 12px 12px 12px;
+  height: 180px;
+  width: 24%;
+  align-content: center;
+  text-align: center;
+  margin-top: -10;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.img-4 {
+  width: 70px;
+  height: 70px;
+}
 .first-nav {
   display: flex;
 }
