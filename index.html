@@ -24,19 +24,25 @@
       </section>
 
       <nav class="second-nav">
-        <img class="logo" src="./image/Logo-and-word.svg" />
+        <div class="logo">
+          <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 48.5C10.7467 48.5 0 37.7533 0 24.5H24V48.5Z" fill="#703BF7"/>
+            <path d="M0 0.5C13.2533 0.5 24 11.2467 24 24.5H0V0.5Z" fill="#703BF7"/>
+            <path d="M24 48.5C37.2533 48.5 48 37.7533 48 24.5H24V48.5Z" fill="#703BF7"/>
+            <path d="M48 24.5C48 11.2467 37.2533 0.5 24 0.5V24.5H48Z" fill="#703BF7"/>
+          </svg>
+        </div>
 
         <ul class="ul-nav">
-          <li type="button" class="btn-contact-us">Home</li>
-          <li>About Us</li>
-          <li>Properties</li>
-          <li>Services</li>
+          <li><a class="btn-home" href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Properties</a></li>
+          <li><a href="#">Services</a></li>
         </ul>
-        <button type="button" class="btn-contact-us">Contact Us</button>
+        <a class="btn-dark">Contact Us</a>
       </nav>
     </header>
-
-    <div class="hero">
+    <div class="hero flex-row-ar">
       <div class="flex-column gap-50">
         <div class="hero-header">
           <h1>Discover Your Dream Property with Estatein</h1>
@@ -64,26 +70,27 @@
           </div>
         </div>
       </div>
-      <di
+      <div
       v class="image">
         <img src="./image/hero-img.png" alt="hero image" />
       </di>
+    </div>
     </header>
     <div class="cards">
-      <div class="card-1">
-        <img class="img-1" src="/image/icons/Icon Container.png" />
+      <div class="card">
+        <img class="img" src="/image/icons/Icon Container.png" />
         <span>Find Your Dream Home</span>
       </div>
-      <div class="card-2">
-        <img class="img-2" src="/image/icons/Icon Container (1).png" />
+      <div class="card">
+        <img class="img" src="/image/icons/Icon Container (1).png" />
         <span>Unlock Property Value</span>
       </div>
-      <div class="card-3">
-        <img class="img-3" src="/image/icons/Icon Container (2).png" />
+      <div class="card">
+        <img class="img" src="/image/icons/Icon Container (2).png" />
         <span>Effortless Property Management</span>
       </div>
-      <div class="card-4">
-        <img class="img-4" src="/image/icons/Icon Container (3).png" />
+      <div class="card">
+        <img class="img" src="/image/icons/Icon Container (3).png" />
         <span>Smart Investments,Informed Decisions</span>
       </div>
     </div>
@@ -169,7 +176,68 @@
         </div>
       </div>
     </div>
-    <script
+    <section class="last-part-of-main">
+      <div>
+        <p class="last-part-of-main-title">Start Your Real Estate Journey Today</p>
+        <p class="last-part-of-main-p">Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Estatein is<br> here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch<br> with our team for personalized assistance.</p>
+      </div>
+      <div class="buttons">
+        <a class="btn-Primary" class="last-part-of-main-btn" href="#">Explore Properties</a>
+      </div>                
+    </section>
+    <footer class="flex-row-ar">
+      <div class="logo-send flex-column">
+        <div class="footer-logo">
+          <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 48.5C10.7467 48.5 0 37.7533 0 24.5H24V48.5Z" fill="#703BF7"/>
+            <path d="M0 0.5C13.2533 0.5 24 11.2467 24 24.5H0V0.5Z" fill="#703BF7"/>
+            <path d="M24 48.5C37.2533 48.5 48 37.7533 48 24.5H24V48.5Z" fill="#703BF7"/>
+            <path d="M48 24.5C48 11.2467 37.2533 0.5 24 0.5V24.5H48Z" fill="#703BF7"/>
+          </svg>
+          <span>Estatein</span>
+        </div>
+        <div class="sent-email">
+          <input type="text" name="email" placeholder=" xEnter Your Email">
+        </div>
+      </div>
+      <div class="footer-menu">
+        <ul>
+          <span><a href="#">Home</a></span>
+          <li><a href="#">Hero Section</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="#">Properties</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">FAQ's</a></li>
+        </ul>
+        <ul>
+          <span><a href="About Us"></a></span>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Our Works</a></li>
+          <li><a href="#">How It Works</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Our Clients</a></li>
+        </ul>
+        <ul>
+          <span><a href="#">Properties</a></span>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+        <ul>
+          <span><a href="#">Services</a></span>
+          <li><a href="#">Valuation Mastery</a></li>
+          <li><a href="#">Strategic Marketing</a></li>
+          <li><a href="#">Negotiation Wizardry</a></li>
+          <li><a href="#">Closing Success</a></li>
+          <li><a href="#">Property Management</a></li>
+        </ul>
+        <ul>
+          <span><a href="#">Contact Us</a></span>
+          <li><a href="#">Contact Form</a></li>
+          <li><a href="#">Our Offices</a></li>
+        </ul>
+      </div>
+    </footer>
+        <script
       src="https://kit.fontawesome.com/11cf7e4d55.js"
       crossorigin="anonymous"
     ></script>
