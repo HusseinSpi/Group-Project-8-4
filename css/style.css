@@ -600,6 +600,9 @@
   font-size: 18px;
   width: 200px;
 }
+.btn-more {
+  background-color: #1a1a1a;
+}
 footer {
   background-color: #1a1a1a;
   height: 100px;
