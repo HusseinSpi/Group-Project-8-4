@@ -25,7 +25,7 @@
   width: 30px;
   padding: 5px;
   position: absolute;
-  right: 0;
+  right: 20px;
 }
 
 .btn-x:hover {
@@ -341,27 +341,8 @@
 }
 
 .title-li {
-  font-family: "Urbanist";
-  font-weight: 500;
-  font-size: 20px;
-  color: #999999;
-  justify-content: left;
-  border: 2x rebeccapurple solid;
-}
-.title-li-one {
-  border: 2x rgb(20, 15, 26) solid;
-}
-.title-li-two {
-  border: 2x rgb(153, 51, 102) solid;
-}
-.title-li-three {
-  border: 2x rgb(75, 153, 51) solid;
-}
-.title-li-four {
-  border: 2x rgb(51, 99, 128) solid;
-}
-.title-li-five {
-  border: 2x rgb(153, 151, 51) solid;
+  opacity: 0.5;
+  font-size: 16px;
 }
 
 .last-footer {
@@ -512,7 +493,7 @@
   content: "";
   position: absolute;
   top: 0;
-  left: 20px;
+  left: 100px;
   width: 90%;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
