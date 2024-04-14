@@ -8,6 +8,11 @@
   background-size: cover;
   position: relative;
 }
+.star-icon {
+  width: 22px;
+  height: 26px;
+  padding-top: 10px;
+}
 
 .first-nav p {
   font-size: 14px;
@@ -114,6 +119,10 @@
 
 /* hero */
 
+.hero {
+  max-width: 10rem;
+}
+
 .flex-row-center {
   display: flex;
   flex-direction: row;
@@ -149,6 +158,10 @@
   flex-direction: column;
 }
 
+.header-box {
+  align-items: flex-start;
+}
+
 .hero .flex-column {
   padding: 150px;
 }
@@ -161,15 +174,18 @@
 .image {
   background: linear-gradient(to top right, black, rgba(255, 255, 255, 0.1));
   background-size: cover;
+  width: 100%;
 }
 
 .hero-header h1 {
   font-size: 50px;
+  margin-left: 8px;
 }
 
 .hero-header p {
   opacity: 0.5;
   font-size: 20px;
+  margin-left: 8px;
 }
 
 .information .box {
@@ -367,7 +383,7 @@ footer {
 .title-li-four {
   border: 2x rgb(51, 99, 128) solid;
 }
-..title-li-five {
+.title-li-five {
   border: 2x rgb(153, 151, 51) solid;
 }
 
@@ -392,10 +408,6 @@ footer {
 
   margin-left: 500px;
   gap: 14px;
-}
-footer {
-  background-color: #1a1a1a;
-  height: 100px;
 }
 
 .topto {
@@ -618,7 +630,7 @@ footer {
   font-size: 14px;
   color: gray;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .frequently-questions {
   display: flex;
@@ -627,4 +639,16 @@ footer {
   padding: 40px 100px;
   margin-top: 20px;
   position: relative;
+}
+
+footer {
+  background-color: #1a1a1a;
+  height: 100px;
+  justify-content: space-around;
+}
+
+/*----------------Responsive Website---------------------*/
+
+/*------Wide screen--------*/
+@media (min-width: 1201px) {
 }
