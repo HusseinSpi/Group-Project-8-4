@@ -4,19 +4,19 @@
   body {
     max-width: 100%;
   }
-  header{max-width: 100%;
-
+  header {
+    max-width: 100%;
   }
   .first-nav {
     justify-content: center;
     align-items: center;
     padding-right: 45x;
-     max-width: 100%;
+    max-width: 100%;
   }
   .first-nav p {
     font-size: 14px;
     padding: 0;
-    margin-right:10px;
+    margin-right: 10px;
   }
 
   .btn-x {
@@ -27,7 +27,7 @@
     margin-left: 10px;
   }
 
-  ul{
+  ul {
     margin-right: 130px;
   }
   .ul-nav a {
@@ -37,7 +37,6 @@
     align-items: center;
   }
 
-   
   a.btn-home {
     background-color: black;
     border: 1px solid rgba(255, 255, 255, 0.5);
@@ -60,59 +59,48 @@
     margin: 10px;
   }
 
- 
-
   .second-nav .btn-dark {
     padding: 3px 5px;
     color: rgba(255, 255, 255, 0.7);
     margin-right: 50px;
   }
 
- 
-
-
-
-/* hero */
-.hero .flex-row-ar{
-  display: flex;
-  flex-direction: row;
-
-}
-.hero .flex-column{
+  /* hero */
+  .hero .flex-row-ar {
+    display: flex;
+    flex-direction: row;
+  }
+  .hero .flex-column {
     padding: 1px;
-    }
+  }
 
-.hero-header h1{
-  font-size: 35px;
-}
+  .hero-header h1 {
+    font-size: 35px;
+  }
 
-.btn-primary{
+  .btn-primary {
     background-color: var(--Primary-color);
     border-radius: 10px;
     padding: 15px 25px;
     margin: 5px;
-
-}
-.information .box{
+  }
+  .information .box {
     width: 12px;
     background-color: #141414;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     padding: 25px 45px;
     margin: 10px;
-}
+  }
 
+  div.box {
+  }
 
-div.box{
-
-}
-
-.hero-img{
-
-      width: 420px;
+  .hero-img {
+    width: 420px;
     height: 600px;
-}
+  }
 
-information .flex-row-ar{
-
+  information .flex-row-ar {
+  }
 }
