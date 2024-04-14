@@ -1,6 +1,6 @@
 @media (max-width: 600px) {
   body {
-    width: 90%;
+    width: 100%;
   }
   .first-nav {
     justify-content: space-between;
@@ -219,5 +219,10 @@
   .last-main .btn-Primary {
     width: 90%;
     text-align: center;
+  }
+  .topto {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
